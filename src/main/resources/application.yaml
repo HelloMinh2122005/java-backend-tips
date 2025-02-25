@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: springboot_shopdev
+  datasource:
+    url: jdbc:mysql://localhost:3307/minh1st
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql 
+    show-sql: true 
+    hibernate:
+      ddl-auto: update 
+    properties:
+      hibernate:
+        format-sql: true
+        use_sql_comments: true 
